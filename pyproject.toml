@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Python utilities for the Zarr Vector Format (ZVF) — cloud-native storage for points, lines, streamlines, graphs, and meshes."
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
     {name = "Andrew Keenlyside"},
     {name = "Forrest Collman"},
@@ -19,7 +19,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: BSD License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering",
@@ -68,13 +67,13 @@ include = ["zarr_vectors*"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py310"
+target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 

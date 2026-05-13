@@ -1,0 +1,2 @@
+# Exclude notebooks and sample data from package source manifests.
+prune examples
